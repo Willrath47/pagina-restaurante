@@ -20,6 +20,7 @@
 .background2{
     background: linear-gradient(
     rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0)),url(./recetas-frescos.jpg);
+    
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -57,8 +58,18 @@
 }
 @media screen and (min-width:992px) {
     #hambuerguesa {display:none; }
+   
   }
   @media screen and (max-width:991px) {
+    .background2{
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0)),url(./recetas-frescos.jpg);
+        background-color: rgba(0, 0, 0, 0.514); 
+        background-blend-mode:darken;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
     #hambuerguesa {  
     justify-content: left;
     justify-items: left;

@@ -10,13 +10,21 @@
     border: none;
 } */
 
-.dark-bg{
+.background1{
     background: linear-gradient(
     rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0)),url(./Tamal_guatemalteco.png);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
+.background2{
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0)),url(./recetas-frescos.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 
 .collapse{
     justify-content: center;
